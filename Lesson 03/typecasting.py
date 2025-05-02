@@ -29,4 +29,4 @@ print("Data Type of age is", type(age))
 
 weight = int(weight)
 print("weight after typecasting: ",weight)
-print("Data Type of weight is", type(weight))
+print("Data Type of weight is",type(weight))
