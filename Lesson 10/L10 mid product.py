@@ -18,7 +18,7 @@ if numLen >= 4:
     while num > 0: #iterate loop
         rem = num%10
 
-        if chk--numLen:
+        if chk==numLen:
             midOne = rem
         elif chk==(numLen-1):
             midTwo = rem
