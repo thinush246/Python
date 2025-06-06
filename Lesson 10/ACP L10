@@ -1,0 +1,14 @@
+# Get input from user
+#decimal = int(input("Enter a decimal number: "))
+decimal = 10
+
+# Empty string to store binary result
+binary = ""
+
+# While loop to convert decimal to binary
+while decimal > 0:
+    remainder = decimal % 2
+    binary = str(remainder) + binary  # Prepend remainder to the binary string
+    decimal = decimal // 2
+
+print("Binary number:", binary)
