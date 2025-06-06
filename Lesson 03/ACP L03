@@ -1,0 +1,9 @@
+# Taking input
+#input_text = input("Enter a word: ")
+input_text = "Apple"
+
+# Converting to uppercase
+uppercase_text = input_text.upper()
+
+# Displaying the result
+print("Uppercase version:", uppercase_text)
