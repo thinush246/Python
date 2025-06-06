@@ -1,0 +1,9 @@
+# Ask the user to enter the temperature
+#temperature = float(input("Enter the current temperature in Celsius: "))
+temperature = 35
+
+# Use a conditional statement to make a decision
+if temperature >= 25:
+    print("It's warm enough! You can wear light clothes.")
+else:
+    print("It's still a bit cold. Better wear something warm.")
