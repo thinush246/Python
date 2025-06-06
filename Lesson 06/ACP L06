@@ -1,0 +1,13 @@
+# Taking input
+#char = input("Enter a character: ")
+char = "0"
+
+# Check if the input is a single character
+if len(char) == 1:
+    # Check if it's an alphabet using comparison
+    if ('a' <= char <= 'z') or ('A' <= char <= 'Z'):
+        print("It is an alphabet.")
+    else:
+        print("It is not an alphabet.")
+else:
+    print("Please enter only one character.")
