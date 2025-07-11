@@ -1,0 +1,13 @@
+# Step 1: Original list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Step 2: Create an empty list to store squares
+squares = []
+
+# Step 3: Use a loop to square each number
+for num in numbers:
+    squares.append(num ** 2)
+
+# Step 4: Print results
+print("Original numbers:", numbers)
+print("Squared numbers:", squares)
