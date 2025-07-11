@@ -1,0 +1,19 @@
+import math
+
+# Ask the user to enter an angle in degrees
+#angle_deg = float(input("Enter an angle in degrees: "))
+angle_deg = 45
+
+# Convert to radians (Python uses radians for trig functions)
+angle_rad = math.radians(angle_deg)
+
+# Calculate trigonometric values
+sine = math.sin(angle_rad)
+cosine = math.cos(angle_rad)
+tangent = math.tan(angle_rad)
+
+# Display results
+print(f"\nTrigonometric values for {angle_deg}°:")
+print(f"sin({angle_deg}) = {round(sine, 4)}")
+print(f"cos({angle_deg}) = {round(cosine, 4)}")
+print(f"tan({angle_deg}) = {round(tangent, 4)}")
