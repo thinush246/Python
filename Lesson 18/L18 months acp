@@ -1,0 +1,11 @@
+import calendar
+
+# Ask user for year and month
+#year = int(input("Enter the year "))
+year = 2026
+#month = int(input("Enter the month"))
+month = 2
+
+# Print the calendar
+print("\nHere is the calendar:\n")
+print(calendar.month(year, month))
