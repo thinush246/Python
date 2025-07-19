@@ -1,0 +1,9 @@
+def count_digits(number):
+    # Convert the number to string to count digits easily
+    number_str = str(abs(number))  # abs() handles negative numbers
+    digit_count = len(number_str)
+    return digit_count
+
+# Example usage:
+num = 79243695
+print(f"The number {num} has {count_digits(num)} digits.")
